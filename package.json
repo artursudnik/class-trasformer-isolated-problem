@@ -6,6 +6,10 @@
   "scripts": {
     "update-barrels" : "yarn barrelsby -q -d ./src/ -s -l replace -D"
   },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "reflect-metadata": "^0.1.13"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5",
     "@typescript-eslint/parser": "5",
