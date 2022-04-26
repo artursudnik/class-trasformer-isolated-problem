@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "update-barrels" : "yarn barrelsby -q -d ./src/ -s -l replace -D"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5",
     "@typescript-eslint/parser": "5",
