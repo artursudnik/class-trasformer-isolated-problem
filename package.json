@@ -2,5 +2,16 @@
   "name": "class-transformer-problem-isolated",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5",
+    "@typescript-eslint/parser": "5",
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-prettier": "4",
+    "prettier": "2",
+    "ts-node": "10",
+    "tsc": "2",
+    "typescript": "4"
+  }
 }
